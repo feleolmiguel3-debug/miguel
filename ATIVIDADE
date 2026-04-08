@@ -1,0 +1,262 @@
+# 1
+nome = input("Digite seu nome: ")
+print("Bem-vindo,", nome)
+
+# 2
+idade = int(input("Digite sua idade: "))
+print("Você tem", idade, "anos")
+
+# 3
+nome = input("Nome: ")
+curso = input("Curso: ")
+print("Aluno:", nome, "| Curso:", curso)
+
+# 4
+num = int(input("Digite um número: "))
+print("Dobro:", num * 2)
+
+# 5
+n1 = float(input("Número 1: "))
+n2 = float(input("Número 2: "))
+print("Soma:", n1 + n2)
+
+# 6
+valor = float(input("Digite um valor: "))
+print("Valor digitado: R$", valor)
+
+# 7
+produto = input("Produto: ")
+preco = float(input("Preço: "))
+print(produto, "custa R$", preco)
+
+# 8
+salario = float(input("Salário: "))
+print("Salário do funcionário: R$", salario)
+
+# 9
+altura = float(input("Altura: "))
+peso = float(input("Peso: "))
+print("Altura:", altura, "| Peso:", peso)
+
+# 10
+cidade = input("Cidade: ")
+print("Você mora em", cidade)
+
+# 11
+n1 = float(input("Nota 1: "))
+n2 = float(input("Nota 2: "))
+media = (n1 + n2) / 2
+print("Média:", media)
+
+# 12
+salario = float(input("Salário: "))
+bonus = salario * 0.10
+print("Salário com bônus:", salario + bonus)
+
+# 13
+qtd = int(input("Quantidade: "))
+preco = float(input("Preço: "))
+print("Total:", qtd * preco)
+
+# 14
+ano = int(input("Ano de nascimento: "))
+idade = 2026 - ano
+print("Idade:", idade)
+
+# 15
+km = float(input("Km percorridos: "))
+litros = float(input("Litros: "))
+print("Consumo:", km / litros, "km/l")
+
+# 16
+preco = float(input("Preço: "))
+desconto = preco * 0.20
+print("Preço com desconto:", preco - desconto)
+
+# 17
+conta = float(input("Valor da conta: "))
+taxa = conta * 0.10
+print("Total com taxa:", conta + taxa)
+
+# 18
+largura = float(input("Largura: "))
+altura = float(input("Altura: "))
+print("Área:", largura * altura)
+# 19
+idade = int(input("Idade: "))
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+# 20
+media = float(input("Média: "))
+if media >= 7:
+    print("Aprovado")
+else:
+    print("Reprovado")
+
+# 21
+media = float(input("Média: "))
+if media >= 7:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")
+
+# 22
+user = input("Usuário: ")
+senha = input("Senha: ")
+
+if user == "admin" and senha == "123":
+    print("Login correto")
+else:
+    print("Login errado")
+
+# 23
+preco = float(input("Preço: "))
+forma = input("Forma (avista/parcelado): ")
+
+if forma == "avista":
+    print("Preço com desconto:", preco * 0.9)
+else:
+    print("Preço normal:", preco)
+
+# 24
+renda = float(input("Renda: "))
+if renda >= 2000:
+    print("Empréstimo aprovado")
+else:
+    print("Negado")
+
+# 25
+idade = int(input("Idade: "))
+if idade < 12:
+    print("Criança")
+elif idade < 18:
+    print("Adolescente")
+elif idade < 60:
+    print("Adulto")
+else:
+    print("Idoso")
+
+# 26
+media = float(input("Média: "))
+if media >= 9:
+    print("Excelência")
+elif media >= 7:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")
+
+# 27
+num = int(input("Número: "))
+if num > 0:
+    print("Positivo")
+elif num < 0:
+    print("Negativo")
+else:
+    print("Zero")
+
+# 28
+num = int(input("Número: "))
+if num % 2 == 0:
+    print("Par")
+else:
+    print("Ímpar")
+
+# 29
+km = float(input("Distância: "))
+if km <= 5:
+    print("R$10")
+elif km <= 10:
+    print("R$20")
+elif km <= 20:
+    print("R$30")
+else:
+    print("R$50")
+
+# 30
+consumo = float(input("kWh: "))
+if consumo <= 100:
+    print("Tarifa básica")
+elif consumo <= 200:
+    print("Tarifa média")
+else:
+    print("Tarifa alta")
+
+# 31
+temp = float(input("Temperatura: "))
+if temp < 20:
+    print("Frio")
+elif temp < 30:
+    print("Agradável")
+else:
+    print("Quente")
+
+# 32
+idade = int(input("Idade: "))
+ingresso = input("Tem ingresso? (s/n): ")
+
+if ingresso == "n":
+    print("Acesso negado")
+elif idade >= 18:
+    print("Acesso permitido")
+else:
+    print("Acesso restrito")
+
+# 33
+qtd = int(input("Quantidade: "))
+preco = float(input("Preço: "))
+total = qtd * preco
+
+if qtd <= 10:
+    print(total)
+elif qtd <= 20:
+    print(total * 0.9)
+else:
+    print(total * 0.8)
+
+# 34
+nota = float(input("Nota: "))
+if nota >= 9:
+    print("Excelente")
+elif nota >= 7:
+    print("Bom")
+elif nota >= 5:
+    print("Regular")
+else:
+    print("Ruim")
+
+# 35
+ano = int(input("Ano: "))
+if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+    print("Bissexto")
+else:
+    print("Não é bissexto")
+
+# 36
+senha_certa = "1234"
+
+for i in range(3):
+    senha = input("Senha: ")
+    if senha == senha_certa:
+        print("Acesso liberado")
+        break
+else:
+    print("Acesso bloqueado")
+
+# 37
+valor = float(input("Valor da compra: "))
+if valor <= 100:
+    print("Sem desconto")
+elif valor <= 500:
+    print("5% de desconto")
+elif valor <= 1000:
+    print("10% de desconto")
+else:
+    print("15% de desconto")
+
